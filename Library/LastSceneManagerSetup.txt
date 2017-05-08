@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Low Poly Style Environment/Testscene.unity
+- path: Assets/Testscene.unity
   isLoaded: 1
   isActive: 1
