@@ -1,7 +1,9 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity_lowploy_flygame", "Assembly-CSharp.csproj", "{72305903-6051-ADA7-2D66-362F5A392708}"
+# Visual Studio 2008
+
+Project("{77D52BA0-3E7F-AFF1-A5D0-A5646E31AC0A}") = "unity_lowploy_flygame", "Assembly-CSharp.csproj", "{72305903-6051-ADA7-2D66-362F5A392708}"
+EndProject
+Project("{77D52BA0-3E7F-AFF1-A5D0-A5646E31AC0A}") = "unity_lowploy_flygame", "Assembly-CSharp-Editor.csproj", "{5003B5A0-9F08-6167-481B-F0A5B40F8CD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{72305903-6051-ADA7-2D66-362F5A392708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72305903-6051-ADA7-2D66-362F5A392708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72305903-6051-ADA7-2D66-362F5A392708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5003B5A0-9F08-6167-481B-F0A5B40F8CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5003B5A0-9F08-6167-481B-F0A5B40F8CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5003B5A0-9F08-6167-481B-F0A5B40F8CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5003B5A0-9F08-6167-481B-F0A5B40F8CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

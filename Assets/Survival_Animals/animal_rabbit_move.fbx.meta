@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: dd3eb7a06db45c54d92c45c247f40c50
+timeCreated: 1494495975
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: rabbit
+    100004: rabbit_butt
+    100006: rabbit_chest
+    100008: rabbit_ear_buttom_l
+    100010: rabbit_ear_buttom_r
+    100012: rabbit_ear_tip_l
+    100014: rabbit_ear_tip_r
+    100016: rabbit_feet_l
+    100018: rabbit_feet_r
+    100020: rabbit_hand_l
+    100022: rabbit_hand_l1
+    100024: rabbit_hand_l10
+    100026: rabbit_hand_l11
+    100028: rabbit_hand_l12
+    100030: rabbit_hand_l13
+    100032: rabbit_hand_l2
+    100034: rabbit_hand_l3
+    100036: rabbit_hand_l4
+    100038: rabbit_hand_l5
+    100040: rabbit_hand_l6
+    100042: rabbit_hand_l7
+    100044: rabbit_hand_l8
+    100046: rabbit_hand_l9
+    100048: rabbit_hand_r
+    100050: rabbit_hand_r1
+    100052: rabbit_hand_r10
+    100054: rabbit_hand_r11
+    100056: rabbit_hand_r12
+    100058: rabbit_hand_r13
+    100060: rabbit_hand_r2
+    100062: rabbit_hand_r3
+    100064: rabbit_hand_r4
+    100066: rabbit_hand_r5
+    100068: rabbit_hand_r6
+    100070: rabbit_hand_r7
+    100072: rabbit_hand_r8
+    100074: rabbit_hand_r9
+    100076: rabbit_head
+    100078: rabbit_heel_l
+    100080: rabbit_heel_r
+    100082: rabbit_kneel_l
+    100084: rabbit_kneel_r
+    100086: rabbit_neck
+    100088: rabbit_root
+    100090: rabbit_shoulder_l
+    100092: rabbit_shoulder_r
+    100094: rabbit_toe_l
+    100096: rabbit_toe_r
+    100098: rabbit_upperleg_l
+    100100: rabbit_upperleg_r
+    100102: rabit_elbow_l
+    100104: rabit_elbow_r
+    400000: //RootNode
+    400002: rabbit
+    400004: rabbit_butt
+    400006: rabbit_chest
+    400008: rabbit_ear_buttom_l
+    400010: rabbit_ear_buttom_r
+    400012: rabbit_ear_tip_l
+    400014: rabbit_ear_tip_r
+    400016: rabbit_feet_l
+    400018: rabbit_feet_r
+    400020: rabbit_hand_l
+    400022: rabbit_hand_l1
+    400024: rabbit_hand_l10
+    400026: rabbit_hand_l11
+    400028: rabbit_hand_l12
+    400030: rabbit_hand_l13
+    400032: rabbit_hand_l2
+    400034: rabbit_hand_l3
+    400036: rabbit_hand_l4
+    400038: rabbit_hand_l5
+    400040: rabbit_hand_l6
+    400042: rabbit_hand_l7
+    400044: rabbit_hand_l8
+    400046: rabbit_hand_l9
+    400048: rabbit_hand_r
+    400050: rabbit_hand_r1
+    400052: rabbit_hand_r10
+    400054: rabbit_hand_r11
+    400056: rabbit_hand_r12
+    400058: rabbit_hand_r13
+    400060: rabbit_hand_r2
+    400062: rabbit_hand_r3
+    400064: rabbit_hand_r4
+    400066: rabbit_hand_r5
+    400068: rabbit_hand_r6
+    400070: rabbit_hand_r7
+    400072: rabbit_hand_r8
+    400074: rabbit_hand_r9
+    400076: rabbit_head
+    400078: rabbit_heel_l
+    400080: rabbit_heel_r
+    400082: rabbit_kneel_l
+    400084: rabbit_kneel_r
+    400086: rabbit_neck
+    400088: rabbit_root
+    400090: rabbit_shoulder_l
+    400092: rabbit_shoulder_r
+    400094: rabbit_toe_l
+    400096: rabbit_toe_r
+    400098: rabbit_upperleg_l
+    400100: rabbit_upperleg_r
+    400102: rabit_elbow_l
+    400104: rabit_elbow_r
+    4300000: rabbit
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: rabbit
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: rabbit
+        weight: 1
+      - path: rabbit_root
+        weight: 1
+      - path: rabbit_root/rabbit_butt
+        weight: 1
+      - path: rabbit_root/rabbit_butt/rabbit_upperleg_l
+        weight: 1
+      - path: rabbit_root/rabbit_butt/rabbit_upperleg_l/rabbit_kneel_l
+        weight: 1
+      - path: rabbit_root/rabbit_butt/rabbit_upperleg_l/rabbit_kneel_l/rabbit_heel_l
+        weight: 1
+      - path: rabbit_root/rabbit_butt/rabbit_upperleg_l/rabbit_kneel_l/rabbit_heel_l/rabbit_feet_l
+        weight: 1
+      - path: rabbit_root/rabbit_butt/rabbit_upperleg_l/rabbit_kneel_l/rabbit_heel_l/rabbit_feet_l/rabbit_toe_l
+        weight: 1
+      - path: rabbit_root/rabbit_butt/rabbit_upperleg_r
+        weight: 1
+      - path: rabbit_root/rabbit_butt/rabbit_upperleg_r/rabbit_kneel_r
+        weight: 1
+      - path: rabbit_root/rabbit_butt/rabbit_upperleg_r/rabbit_kneel_r/rabbit_heel_r
+        weight: 1
+      - path: rabbit_root/rabbit_butt/rabbit_upperleg_r/rabbit_kneel_r/rabbit_heel_r/rabbit_feet_r
+        weight: 1
+      - path: rabbit_root/rabbit_butt/rabbit_upperleg_r/rabbit_kneel_r/rabbit_heel_r/rabbit_feet_r/rabbit_toe_r
+        weight: 1
+      - path: rabbit_root/rabbit_chest
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_neck
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_neck/rabbit_head
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_neck/rabbit_head/rabbit_ear_buttom_l
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_neck/rabbit_head/rabbit_ear_buttom_l/rabbit_ear_tip_l
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_neck/rabbit_head/rabbit_ear_buttom_r
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_neck/rabbit_head/rabbit_ear_buttom_r/rabbit_ear_tip_r
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l1
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l2
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l3
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l4
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l5
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l6
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l7
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l8
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l9
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l10
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l11
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l12
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_l/rabit_elbow_l/rabbit_hand_l13
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r1
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r2
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r3
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r4
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r5
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r6
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r7
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r8
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r9
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r10
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r11
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r12
+        weight: 1
+      - path: rabbit_root/rabbit_chest/rabbit_shoulder_r/rabit_elbow_r/rabbit_hand_r13
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

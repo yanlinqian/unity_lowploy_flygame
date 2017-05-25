@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: f0524d5c14abae949897f2bb2d727610
+timeCreated: 1494495975
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bar__upper_arm_L
+    100004: bar__upper_arm_L1
+    100006: bear_back
+    100008: bear_body
+    100010: bear_butt
+    100012: bear_chest
+    100014: bear_foot_L1
+    100016: bear_foot_L2
+    100018: bear_foot_L3
+    100020: bear_foot_L4
+    100022: bear_foot_L5
+    100024: bear_foot_L6
+    100026: bear_front_arm_L
+    100028: bear_front_arm_L1
+    100030: bear_front_hand_L1
+    100032: bear_front_hand_L2
+    100034: bear_front_handL_2
+    100036: bear_front_handL_3
+    100038: bear_front_handL_4
+    100040: bear_front_handL_5
+    100042: bear_head
+    100044: bear_jaw
+    100046: bear_kneel_L
+    100048: bear_kneel_L1
+    100050: bear_leg_L1
+    100052: bear_leg_L2
+    100054: bear_leg_L3
+    100056: bear_leg_L4
+    100058: bear_mouth
+    100060: bear_neck
+    100062: bear_rib_L1
+    100064: bear_rib_L2
+    100066: bear_rib_L3
+    100068: bear_rib_L4
+    100070: bear_root
+    100072: bear_shoulder
+    100074: bear_shoulder_L
+    100076: bear_shoulder_L1
+    100078: bear_tail
+    100080: bottom1
+    400000: //RootNode
+    400002: bar__upper_arm_L
+    400004: bar__upper_arm_L1
+    400006: bear_back
+    400008: bear_body
+    400010: bear_butt
+    400012: bear_chest
+    400014: bear_foot_L1
+    400016: bear_foot_L2
+    400018: bear_foot_L3
+    400020: bear_foot_L4
+    400022: bear_foot_L5
+    400024: bear_foot_L6
+    400026: bear_front_arm_L
+    400028: bear_front_arm_L1
+    400030: bear_front_hand_L1
+    400032: bear_front_hand_L2
+    400034: bear_front_handL_2
+    400036: bear_front_handL_3
+    400038: bear_front_handL_4
+    400040: bear_front_handL_5
+    400042: bear_head
+    400044: bear_jaw
+    400046: bear_kneel_L
+    400048: bear_kneel_L1
+    400050: bear_leg_L1
+    400052: bear_leg_L2
+    400054: bear_leg_L3
+    400056: bear_leg_L4
+    400058: bear_mouth
+    400060: bear_neck
+    400062: bear_rib_L1
+    400064: bear_rib_L2
+    400066: bear_rib_L3
+    400068: bear_rib_L4
+    400070: bear_root
+    400072: bear_shoulder
+    400074: bear_shoulder_L
+    400076: bear_shoulder_L1
+    400078: bear_tail
+    400080: bottom1
+    4300000: bear_body
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: bear_body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bear_body
+        weight: 1
+      - path: bear_root
+        weight: 1
+      - path: bear_root/bear_back
+        weight: 1
+      - path: bear_root/bear_back/bear_chest
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_rib_L1
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_rib_L4
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_neck
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_neck/bear_head
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_neck/bear_head/bear_jaw
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_neck/bear_head/bear_mouth
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L/bar__upper_arm_L
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L/bar__upper_arm_L/bear_front_arm_L
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L/bar__upper_arm_L/bear_front_arm_L/bear_front_hand_L1
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L/bar__upper_arm_L/bear_front_arm_L/bear_front_hand_L1/bear_front_handL_2
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L/bar__upper_arm_L/bear_front_arm_L/bear_front_hand_L1/bear_front_handL_2/bear_front_handL_3
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L1
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L1/bar__upper_arm_L1
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L1/bar__upper_arm_L1/bear_front_arm_L1
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L1/bar__upper_arm_L1/bear_front_arm_L1/bear_front_hand_L2
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L1/bar__upper_arm_L1/bear_front_arm_L1/bear_front_hand_L2/bear_front_handL_4
+        weight: 1
+      - path: bear_root/bear_back/bear_chest/bear_shoulder/bear_shoulder_L1/bar__upper_arm_L1/bear_front_arm_L1/bear_front_hand_L2/bear_front_handL_4/bear_front_handL_5
+        weight: 1
+      - path: bear_root/bear_back/bear_rib_L2
+        weight: 1
+      - path: bear_root/bear_back/bear_rib_L3
+        weight: 1
+      - path: bear_root/bear_butt
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L1
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L1/bear_leg_L2
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L1/bear_leg_L2/bear_kneel_L
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L1/bear_leg_L2/bear_kneel_L/bear_foot_L1
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L1/bear_leg_L2/bear_kneel_L/bear_foot_L1/bear_foot_L2
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L1/bear_leg_L2/bear_kneel_L/bear_foot_L1/bear_foot_L2/bear_foot_L3
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L3
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L3/bear_leg_L4
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L3/bear_leg_L4/bear_kneel_L1
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L3/bear_leg_L4/bear_kneel_L1/bear_foot_L4
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L3/bear_leg_L4/bear_kneel_L1/bear_foot_L4/bear_foot_L5
+        weight: 1
+      - path: bear_root/bear_butt/bear_leg_L3/bear_leg_L4/bear_kneel_L1/bear_foot_L4/bear_foot_L5/bear_foot_L6
+        weight: 1
+      - path: bear_root/bear_butt/bear_tail
+        weight: 1
+      - path: bottom1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	void FixedUpdate ()
 	{
-		UpdateFunction ();
+		Move();
 	// Store the input axes.
 //	float h = Input.GetAxisRaw ("Horizontal");
 //	float v = Input.GetAxisRaw ("Vertical");
@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour {
 //	default_movement=Move (h, v);
 //
 //	// Turn the player to face the direction he is heading for.
-//	Turning (default_movement);
+		Turning (transform.position+playerRigidbody.velocity);
 
 
 
@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour {
 	//Animating (h, v);
 	}
 
-	void UpdateFunction()
+	void Move()
 	{
 
 		Quaternion AddRot = Quaternion.identity;
@@ -62,27 +62,12 @@ public class PlayerMovement : MonoBehaviour {
 		//playerRigidbody.velocity = AddPos * (Time.fixedDeltaTime * speed);
 		playerRigidbody.MovePosition(transform.position+AddPos * (Time.fixedDeltaTime * speed));
 	}
-
-	Vector3 Move (float h, float v)
-	{
-		// Set the movement vector based on the axis input.
-		movement.Set (h, v, 0f);
-
-		// Normalise the movement vector and make it proportional to the speed per second.
-		movement = movement.normalized * speed * Time.deltaTime;
-
-		movement+=default_movement.normalized * speed * 0.3f * Time.deltaTime;
-
-		// Move the player to it's current position plus the movement.
-		playerRigidbody.MovePosition (transform.position + movement);
-
-		return movement;
-	}
+		
 	void Turning (Vector3 direction)
 	{
 		direction = direction.normalized;
 
-		playerRigidbody.MoveRotation (Quaternion.Lerp(playerRigidbody.rotation,Quaternion.LookRotation(direction),Time.time * 0.05f));
+		playerRigidbody.MoveRotation (Quaternion.Lerp(playerRigidbody.rotation,Quaternion.LookRotation(direction),Time.time * 0.2f));
 
 //			// Create a ray from the mouse cursor on screen in the direction of the camera.
 //			Ray camRay = Camera.main.ScreenPointToRay (Input.mousePosition);
